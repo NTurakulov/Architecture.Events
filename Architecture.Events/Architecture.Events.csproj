@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.4.0-beta</Version>
+    <AssemblyVersion>0.4.0.0</AssemblyVersion>
+    <FileVersion>0.4.0.0</FileVersion>
+    <PackageTags>Neosphere Architecture Events Event Sourcing Microservices</PackageTags>
+    <PackageReleaseNotes>Simplified event processing and ServiceType enum added</PackageReleaseNotes>
+    <Copyright>Neosphere Technologies</Copyright>
+    <Description>Base classes for Event Sourcing pattern</Description>
+    <Authors>Nozim Turakulov</Authors>
+    <Company>Neosphere Technologies</Company>
+    <Product>Neosphere ERP</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
